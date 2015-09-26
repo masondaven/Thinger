@@ -13,6 +13,7 @@
 		935009851BB643D0008B283A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935009841BB643D0008B283A /* Images.xcassets */; };
 		935009881BB643D0008B283A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935009861BB643D0008B283A /* LaunchScreen.xib */; };
 		935009941BB643D0008B283A /* ThingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935009931BB643D0008B283A /* ThingerTests.swift */; };
+		9350099E1BB64B5A008B283A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350099D1BB64B5A008B283A /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9350098D1BB643D0008B283A /* ThingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935009921BB643D0008B283A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935009931BB643D0008B283A /* ThingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingerTests.swift; sourceTree = "<group>"; };
+		9350099D1BB64B5A008B283A /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				935009841BB643D0008B283A /* Images.xcassets */,
 				935009861BB643D0008B283A /* LaunchScreen.xib */,
 				9350097B1BB643D0008B283A /* Supporting Files */,
+				9350099D1BB64B5A008B283A /* DashboardViewController.swift */,
 			);
 			path = Thinger;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				935009801BB643D0008B283A /* LoginViewController.swift in Sources */,
+				9350099E1BB64B5A008B283A /* DashboardViewController.swift in Sources */,
 				9350097E1BB643D0008B283A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

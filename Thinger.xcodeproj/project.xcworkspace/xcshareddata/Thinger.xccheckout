@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DCAF2BB-AAF5-425C-9CBE-C9AD25A845FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Thinger</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7D3D43FFFC077B476843F0A236D056CE1FE372D2</key>
+		<string>https://github.com/masondaven/Thinger</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Thinger.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7D3D43FFFC077B476843F0A236D056CE1FE372D2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/masondaven/Thinger</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7D3D43FFFC077B476843F0A236D056CE1FE372D2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7D3D43FFFC077B476843F0A236D056CE1FE372D2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Thinger</string>
+		</dict>
+	</array>
+</dict>
+</plist>

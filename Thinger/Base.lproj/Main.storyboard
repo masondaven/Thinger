@@ -53,5 +53,53 @@
             </objects>
             <point key="canvasLocation" x="454.5" y="354.5"/>
         </scene>
+        <!--Dashboard View Controller-->
+        <scene sceneID="Oxs-Ly-vyG">
+            <objects>
+                <viewController id="hAe-Ju-hu0" customClass="DashboardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bdG-Xm-bus"/>
+                        <viewControllerLayoutGuide type="bottom" id="PZv-h3-1Rh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EaU-k9-gzx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thinger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJA-NA-Kyt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.6315091942708051" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="AkH-Gn-mao"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kJA-NA-Kyt" firstAttribute="leading" secondItem="EaU-k9-gzx" secondAttribute="leadingMargin" id="6LE-Ug-nnl"/>
+                            <constraint firstItem="kJA-NA-Kyt" firstAttribute="top" secondItem="EaU-k9-gzx" secondAttribute="topMargin" id="Vrk-vf-6fw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kJA-NA-Kyt" secondAttribute="trailing" id="XcZ-CS-a2l"/>
+                            <constraint firstItem="kJA-NA-Kyt" firstAttribute="top" secondItem="EaU-k9-gzx" secondAttribute="topMargin" id="aOn-ef-wgt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kJA-NA-Kyt" secondAttribute="trailing" constant="-16" id="aXa-mr-78x"/>
+                            <constraint firstItem="kJA-NA-Kyt" firstAttribute="leading" secondItem="EaU-k9-gzx" secondAttribute="leadingMargin" constant="-16" id="l0M-OL-GcM"/>
+                            <constraint firstItem="kJA-NA-Kyt" firstAttribute="top" secondItem="bdG-Xm-bus" secondAttribute="bottom" id="n55-eD-GjD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6LE-Ug-nnl"/>
+                                <exclude reference="XcZ-CS-a2l"/>
+                                <exclude reference="aOn-ef-wgt"/>
+                                <exclude reference="n55-eD-GjD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oxo-x3-PAg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911.5" y="354.5"/>
+        </scene>
     </scenes>
 </document>
