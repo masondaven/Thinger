@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9350097E1BB643D0008B283A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350097D1BB643D0008B283A /* AppDelegate.swift */; };
-		935009801BB643D0008B283A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350097F1BB643D0008B283A /* ViewController.swift */; };
+		935009801BB643D0008B283A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350097F1BB643D0008B283A /* LoginViewController.swift */; };
 		935009831BB643D0008B283A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935009811BB643D0008B283A /* Main.storyboard */; };
 		935009851BB643D0008B283A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935009841BB643D0008B283A /* Images.xcassets */; };
 		935009881BB643D0008B283A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 935009861BB643D0008B283A /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		935009781BB643D0008B283A /* Thinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9350097C1BB643D0008B283A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9350097D1BB643D0008B283A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9350097F1BB643D0008B283A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9350097F1BB643D0008B283A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		935009821BB643D0008B283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		935009841BB643D0008B283A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		935009871BB643D0008B283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				9350097D1BB643D0008B283A /* AppDelegate.swift */,
-				9350097F1BB643D0008B283A /* ViewController.swift */,
+				9350097F1BB643D0008B283A /* LoginViewController.swift */,
 				935009811BB643D0008B283A /* Main.storyboard */,
 				935009841BB643D0008B283A /* Images.xcassets */,
 				935009861BB643D0008B283A /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				935009801BB643D0008B283A /* ViewController.swift in Sources */,
+				935009801BB643D0008B283A /* LoginViewController.swift in Sources */,
 				9350097E1BB643D0008B283A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +409,7 @@
 				935009991BB643D0008B283A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9350099A1BB643D0008B283A /* Build configuration list for PBXNativeTarget "ThingerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				9350099C1BB643D0008B283A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
